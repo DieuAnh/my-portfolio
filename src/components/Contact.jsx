@@ -13,10 +13,6 @@ function Contact() {
             <a href="mailto:thidieuanhle@gmail.com">thidieuanhle@gmail.com</a>
           </p>
           <p>
-            <i class="fa-solid fa-phone contact-icon"></i>{" "}
-            <a href="tel:+33781275296">(+33) 7 81 27 52 96</a>
-          </p>
-          <p>
             <i class="fa-brands fa-linkedin contact-icon"></i>{" "}
             <a
               href="https://www.linkedin.com/in/thidieuanhle/"
