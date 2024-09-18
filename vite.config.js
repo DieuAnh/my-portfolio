@@ -16,4 +16,5 @@ export default defineConfig({
     // Enable SPA fallback
     historyApiFallback: true,
   },
+  build: {},
 });

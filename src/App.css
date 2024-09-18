@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  font-family: Exo, sans-serif;
+  font-family: europa;
 }
 
 .logo {
@@ -120,7 +120,7 @@ main {
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0 10rem;
+  padding: 0 6rem;
 }
 
 .nav-links li {
@@ -200,21 +200,12 @@ main {
   /* opacity: 0.35; */
 }
 
-/* sub heading */
-.description {
-  font-size: 3rem; /* Set the desired font size */
-  font-weight: 300;
-  margin: 0.5rem 3rem;
-  font-family: Exo, sans-serif;
-  /*color: white; /* Ensure text is visible on the background */
-}
-
 /* sub heading smaller*/
 .description {
-  font-size: 2rem; /* Set the desired font size */
-  font-weight: 400;
+  font-size: 2.3rem; /* Set the desired font size */
+  font-weight: 480;
   margin: 0.5rem 3rem;
-  font-family: Exo, sans-serif;
+  /* font-family: Exo, sans-serif; */
   /*color: white; /* Ensure text is visible on the background */
 }
 
@@ -224,8 +215,26 @@ main {
   font-size: 4rem; /* Desired font size */
   font-weight: 700; /* Bold weight */
   margin-bottom: 1rem;
-  font-family: Exo, sans-serif;
+  /* font-family: Exo, sans-serif; */
   /*color: white;  Ensure text is visible on the background */
+}
+
+a.my-link {
+  font-family: europa;
+  color: #454545;
+  font-weight: 700;
+  font-size: 0.95rem;
+  font-style: normal;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  padding: 0 0 2px 0;
+  transition: border 0.25s ease-out;
+}
+
+.icon-hi {
+  color: #2db99a;
+  margin-left: 1rem;
 }
 
 /* Paragraph for additional text */
@@ -236,14 +245,14 @@ p {
   font-weight: 300;
   display: flex;
   align-items: center;
-  font-family: Exo, sans-serif;
+  font-family: europa;
 }
 
 /* Arrow styling */
 .arrow {
-  color: #007bff; /* Blue color for arrow */
+  color: #2db99a; /* Blue color for arrow */
   font-size: 2rem; /* Match the size of other text elements */
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
 /* Keyframes for the animation */
@@ -265,18 +274,10 @@ p {
   }
 }
 
-/* Apply the animation to the "tdale" element */
-.logo {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #2db99a;
-  line-height: 2em;
-  letter-spacing: 0.06em;
-  text-transform: lowercase;
-  display: inline-block; /* Ensures transform effects apply correctly */
-
-  /* Animation properties */
-  animation: stylishFade 4s ease-in-out infinite;
+img.my-logo {
+  width: 12%;
+  height: auto;
+  margin: 0 4rem;
 }
 
 /* contact.css */
@@ -284,20 +285,19 @@ p {
 .contact-container {
   /* padding: 40px; */
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-container h2 {
-  font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  /* color: #333; */
 }
 
 .contact-container p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 10px;
-  color: #555;
+  /* color: #555; */
 }
 
 .contact-details a {
@@ -321,8 +321,7 @@ p {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  color: #fff; /* Adjust text color for readability */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .contact-content {
@@ -343,19 +342,168 @@ p {
 }
 
 .contact-details a {
-  color: #2db99a; /* Change the link color to green */
   text-decoration: none; /* Remove underline */
+  color: #213547;
+  font-size: 700;
 }
 
 .contact-details a:hover {
-  color: rgb(
-    8,
-    118,
-    8
-  ); /* Optional: Change color on hover for better interactivity */
+  color: #2db99a;
   text-decoration: underline; /* Optional: Add underline on hover */
 }
 
 .contact-icon {
   margin-right: 1rem;
+  color: #2db99a;
+}
+
+.about-content {
+  display: flex; /* Use Flexbox to layout text and image side-by-side */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add some space below the content */
+  width: 100%; /* Ensure it takes the full width of the container */
+}
+
+.about-details {
+  width: 100%; /* Ensure details take the full width */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.custom-grid {
+  display: grid; /* Use CSS Grid for the custom layout */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Gap between grid items */
+  width: 100%;
+}
+
+.about-container {
+  width: 45vw;
+  margin: 6rem auto;
+  display: block;
+  align-items: center;
+}
+
+.about-content {
+  /* width: 45vw; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+.about-p {
+  font-size: 1rem;
+}
+
+.float-image-right {
+  float: right; /* Floats the image to the left */
+  margin: 0 15px 10px 0; /* Adds some margin around the image */
+  width: 150px; /* Adjusts the width of the image */
+  height: auto; /* Maintains the aspect ratio */
+}
+.float-image-left {
+  float: left; /* Floats the image to the left */
+  margin: 38px 25px 7px 0; /* Adds some margin around the image */
+  width: 400px; /* Adjusts the width of the image */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.about-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-section {
+  width: 45%;
+}
+
+.workstation-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Four equal columns */
+  grid-auto-rows: repeat(6, 200px); /* Default row height */
+  gap: 10px; /* Gap between images */
+  max-width: 100%; /* Adjust as needed */
+  margin: auto; /* Center the grid */
+  margin-top: 60px;
+}
+
+.custom-grid img {
+  width: 100%; /* Stretch the image to fill the grid item */
+  height: 100%; /* Stretch the image to fill the grid item */
+  object-fit: cover; /* Ensures the image covers the entire grid area without distortion */
+  border-radius: 2px; /* Optional: Rounds corners of images */
+}
+.img1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.img2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+.img3 {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.img4 {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.img5 {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.about-content {
+  overflow: hidden; /* Clears the float for parent */
+  position: relative;
+}
+
+/* .about-text {
+  text-align: left;
+} */
+
+.about-image {
+  float: left; /* Floats the image to the right */
+  width: 200px; /* Set width of image */
+  margin: 0 0 10px 10px; /* Adjusts space around the image */
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners */
 }

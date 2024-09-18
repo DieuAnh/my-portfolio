@@ -4,14 +4,13 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-content">
-        <h2>Get In Touch</h2>
         <p>
           Feel free to reach out via email or connect with me on social media!
         </p>
         <div className="contact-details">
           <p>
             <i class="fa-solid fa-envelope contact-icon">{"  "}</i>
-            <a href="thidieuanhle@gmail.com">thidieuanhle@gmail.com</a>
+            <a href="mailto:thidieuanhle@gmail.com">thidieuanhle@gmail.com</a>
           </p>
           <p>
             <i class="fa-solid fa-phone contact-icon"></i>{" "}
