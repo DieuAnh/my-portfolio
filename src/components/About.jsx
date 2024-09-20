@@ -44,9 +44,9 @@ function About() {
             <br />
             <br />
             I’ve worked on a range of projects, from content-heavy websites to
-            internal tools, using technologies like React, Node.js, and Python.
-            My focus has primarily been on web development, and I enjoy the
-            challenge of building different types of applications.
+            enterprise tools, using technologies like React, Node.js, and
+            Python. My focus has primarily been on web development, and I enjoy
+            the challenge of building different types of applications.
             <br />
             <br />
             Outside of coding, I like running, going out with my friends and

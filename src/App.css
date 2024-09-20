@@ -339,6 +339,8 @@ img.my-logo {
 .contact-details {
   font-size: 2rem;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-details a {

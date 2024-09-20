@@ -9,17 +9,27 @@ function Contact() {
         </p>
         <div className="contact-details">
           <p>
-            <i class="fa-solid fa-envelope contact-icon">{"  "}</i>
-            <a href="mailto:thidieuanhle@gmail.com">thidieuanhle@gmail.com</a>
+            <a href="mailto:thidieuanhle@gmail.com">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+            </a>
           </p>
           <p>
-            <i class="fa-brands fa-linkedin contact-icon"></i>{" "}
+            <a
+              href="https://github.com/DieuAnh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github contact-icon"></i>
+            </a>
+          </p>
+          <p>
+            {" "}
             <a
               href="https://www.linkedin.com/in/thidieuanhle/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              connnect with me on LinkedIn
+              <i class="fa-brands fa-linkedin contact-icon"></i>
             </a>
           </p>
         </div>
