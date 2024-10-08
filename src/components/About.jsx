@@ -69,11 +69,7 @@ function About() {
           class="img2"
         />
         <img src="/images/after-work.jpg" alt="pic after work" class="img3" />
-        <img
-          src="/images/dog2.jpg"
-          alt="pic dog of a dogs lover"
-          class="img4"
-        />
+        <img src="/images/dog.jpg" alt="pic dog of a dogs lover" class="img4" />
         <img
           src="/images/motion-conf.jpg"
           alt="pic motion conference 2024 Nantes"
