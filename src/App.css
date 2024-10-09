@@ -312,7 +312,6 @@ img.my-logo {
 /* About.css */
 .contact-container {
   width: 100%;
-  background-image: url("./assets/plane.gif"); /* Path to your GIF */
   background-size: cover; /* Adjusts the size of the GIF to cover the entire container */
   background-repeat: no-repeat; /* Prevents the GIF from repeating */
   background-position: center; /* Centers the GIF */
@@ -326,14 +325,6 @@ img.my-logo {
 
 .contact-content {
   margin: 12rem;
-}
-
-.header .contact-container {
-  background-image: url("./assets/plane.gif"); /* Path to your GIF */
-  background-size: cover; /* Adjusts the size of the GIF to cover the entire container */
-  background-repeat: no-repeat; /* Prevents the GIF from repeating */
-  background-position: center; /* Centers the GIF */
-  background-attachment: fixed; /* Keeps the background fixed during scrolling */
 }
 
 .contact-details {
