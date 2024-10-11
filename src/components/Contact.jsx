@@ -9,7 +9,7 @@ function Contact() {
         </p>
         <div className="contact-details">
           <p>
-            <a href="mailto:thidieuanhle@gmail.com">
+            <a href="mailto:hello@thidieuanhle.io">
               <i class="fa-solid fa-envelope contact-icon"></i>
             </a>
           </p>
