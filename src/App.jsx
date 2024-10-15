@@ -4,7 +4,6 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import myLogo from "./assets/my-logo-loop-one.gif";
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Home from "./components/Home";
 import myResume from "./resume/Thi-Dieu-Anh-Le-Resume.pdf";
 
@@ -44,11 +43,6 @@ function App() {
                   resume
                 </a>
               </li>
-              <li>
-                <Link to="/contact" onClick={restartGif} className="my-link">
-                  contact
-                </Link>
-              </li>
             </ul>
           </nav>
         </header>
@@ -57,7 +51,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             {/* <Route path="/resume" element={<Resume />} /> */}
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>

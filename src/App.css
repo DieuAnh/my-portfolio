@@ -133,41 +133,13 @@ main {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 2em;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   text-transform: lowercase;
 }
 
 .nav-links a:hover {
   color: #34bc71; /* Example of hover effect */
 }
-/*
-main {
-  margin-top: 100px; /* Adjust based on your header height */
-/* padding: 2rem;
-}
-*/
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* App.css */
 
 /* Container for the home page content */
 .home-container {
@@ -226,7 +198,7 @@ a.my-link {
   font-size: 0.95rem;
   font-style: normal;
   line-height: 2em;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   text-transform: lowercase;
   padding: 0 0 2px 0;
   transition: border 0.25s ease-out;
@@ -309,7 +281,6 @@ img.my-logo {
   text-decoration: underline;
 }
 
-/* About.css */
 .contact-container {
   width: 100%;
   background-size: cover; /* Adjusts the size of the GIF to cover the entire container */
@@ -319,19 +290,19 @@ img.my-logo {
   height: 100vh; /* Sets the height to 100% of the viewport */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 .contact-content {
-  margin: 12rem;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  align-items: flex-start;
 }
 
 .contact-details {
   font-size: 2rem;
   padding: 20px;
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: left;
 }
 
 .contact-details a {
@@ -340,22 +311,10 @@ img.my-logo {
   font-size: 700;
 }
 
-.contact-details a:hover {
-  color: #2db99a;
-  text-decoration: underline; /* Optional: Add underline on hover */
-}
-
 .contact-icon {
   margin-right: 1rem;
   color: #2db99a;
-}
-
-.about-content {
-  display: flex; /* Use Flexbox to layout text and image side-by-side */
-  justify-content: space-between; /* Distribute space between items */
-  align-items: center; /* Align items vertically */
-  margin-bottom: 20px; /* Add some space below the content */
-  width: 100%; /* Ensure it takes the full width of the container */
+  font-size: 1.2rem;
 }
 
 .about-details {
@@ -373,23 +332,14 @@ img.my-logo {
 }
 
 .about-container {
-  width: 45vw;
-  margin: 6rem auto;
   display: block;
-  align-items: center;
-}
-
-.about-content {
-  /* width: 45vw; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  margin-bottom: 20px;
+  align-items: flex-start;
 }
 
 .about-p {
-  font-size: 1rem;
+  font-size: 1em;
+  letter-spacing: 0.1rem;
+  /* margin-right: 10px; */
 }
 
 .float-image-right {
@@ -481,13 +431,11 @@ li {
 }
 
 .about-content {
-  overflow: hidden; /* Clears the float for parent */
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
 }
-
-/* .about-text {
-  text-align: left;
-} */
 
 .about-image {
   float: left; /* Floats the image to the right */
@@ -499,4 +447,29 @@ li {
   width: 100%;
   height: auto;
   border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.about-text {
+  flex: 1;
+  margin-left: -2rem;
+}
+
+.about-video {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+video {
+  float: right;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: -2rem;
+}
+
+.contact-content p {
+  font-size: 1rem;
+  display: inline-flex;
 }
