@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
-    <div class="home-container">
-      <div class="content">
-        <p class="description">
-          Hi, I'm Anh <i class="fa-regular fa-hand-peace icon-hi"></i>
+    <div className="home-container">
+      <div className="content">
+        <p className="description">
+          Hi, I'm Anh <i className="fa-regular fa-hand-peace icon-hi"></i>
         </p>
-        <p class="description-big">I'm a full-stack web developer</p>
-        <p class="description">
+        <p className="description-big">I'm a full-stack web developer</p>
+        <p className="description">
           I build web applications{" "}
-          <a href="/about">
-            <i class="arrow fas fa-arrow-circle-right"></i>
-          </a>
+          <Link to="/about" className="button-link">
+            <i className="arrow fas fa-arrow-circle-right"></i>
+          </Link>
         </p>
       </div>
     </div>

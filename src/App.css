@@ -383,52 +383,6 @@ ul {
 li {
   margin-bottom: 5px;
 }
-.custom-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Four equal columns */
-  grid-auto-rows: repeat(6, 200px); /* Default row height */
-  gap: 10px; /* Gap between images */
-  max-width: 100%; /* Adjust as needed */
-  margin: auto; /* Center the grid */
-  margin-top: 60px;
-}
-
-.custom-grid img {
-  width: 100%; /* Stretch the image to fill the grid item */
-  height: 100%; /* Stretch the image to fill the grid item */
-  object-fit: cover; /* Ensures the image covers the entire grid area without distortion */
-  border-radius: 2px; /* Optional: Rounds corners of images */
-}
-.img1 {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-.img2 {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 7;
-}
-.img3 {
-  grid-row-start: 3;
-  grid-row-end: 6;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-.img4 {
-  grid-row-start: 3;
-  grid-row-end: 6;
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-.img5 {
-  grid-row-start: 3;
-  grid-row-end: 5;
-  grid-column-start: 5;
-  grid-column-end: 7;
-}
 
 .about-content {
   display: flex;
@@ -472,4 +426,19 @@ video {
 .contact-content p {
   font-size: 1rem;
   display: inline-flex;
+}
+.button-link {
+  color: #007bff; /* Initial text color */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Makes the text bold */
+  transition: color 0.3s, transform 0.3s; /* Adds smooth transition for color and scale */
+}
+
+.button-link:hover {
+  color: #0056b3; /* Changes the text color on hover */
+  transform: scale(1.1); /* Slightly enlarges the text on hover */
+}
+
+.button-link:active {
+  transform: scale(0.95); /* Adds a pressed effect on click */
 }
