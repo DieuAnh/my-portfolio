@@ -88,12 +88,14 @@ function About() {
         <div className="about-video">
           <video
             ref={videoRef}
-            src="/images/intro.mp4"
+            src="https://d2sfzm091oyn8d.cloudfront.net/intro.mp4"
             type="video/mp4"
             autoplay
             muted
             playsInline
-          ></video>
+          >
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
