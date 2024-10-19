@@ -2,7 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { useState } from "react";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import myLogo from "./assets/my-logo-loop-one.gif";
+import myLogo from "./assets/my-name.gif";
 import About from "./components/About";
 import Home from "./components/Home";
 import myResume from "./resume/Thi-Dieu-Anh-Le-Resume.pdf";
@@ -50,7 +50,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/resume" element={<Resume />} /> */}
           </Routes>
         </main>
       </div>
